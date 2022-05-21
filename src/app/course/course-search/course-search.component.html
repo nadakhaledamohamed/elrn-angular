@@ -1,0 +1,12 @@
+<div class="bg-warning bg-opacity-10 p-3 m-3 border border-primary rounded shadow ">
+  <h5>Search For Courses</h5>
+  <div  class="input-group">
+    <label class="form-label col-sm-2"><b>description:</b></label>
+    <input  class="form-control shadow"  type="text" [(ngModel)]="course.description">
+  </div>
+  <div class="input-group">
+    <label class="form-label col-sm-2"><b>Rating:</b></label>
+    <input class="form-control shadow" type="number"   [(ngModel)]="course.rating" >
+  </div>
+  <button class="btn btn-outline-success"(click)="search()"><b>search</b></button>
+</div>

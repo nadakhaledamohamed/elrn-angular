@@ -1,0 +1,13 @@
+<h1>Courses</h1>
+
+<button class="btn btn-primary m-1" (click)="courseSearch()"> Search </button>
+<button class="btn btn-primary m-1"(click)="courseList()"> courses list </button>
+
+<app-course-search *ngIf="toggleCourseSearch" (courseResult)="hotSearch($event)"></app-course-search>
+
+<app-course-list *ngIf="toggleCourseList" [course]="course" [update]="update"></app-course-list>
+
+
+
+
+

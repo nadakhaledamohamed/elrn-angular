@@ -1,0 +1,97 @@
+<p>student works!</p>
+<!--
+<button (click)="getStudent()" class="btn btn-primary">Get Student</button>
+<div>
+    <label>Student Name: {{student?.name}}</label>
+    <br>
+    <label>Student ID: {{student?.id}}</label></div>
+
+<app-student-details>[studentss]="selectedStudent</app-student-details>
+<br>
+<app-student-list>[studentss]="selectedStudent</app-student-list>
+
+<button [routerLink]="['/student-details']" class="btn btn-primary m-1">studentdetails</button>
+<br>
+<button [routerLink]="['/student-list']" class="btn btn-primary m-1">studentlist</button>
+
+
+
+<li *ngFor="let studentss of student">
+  <button [class.selected]="studentss === selectedStudent" type="button"
+  (click)="onselect(studentss)">
+    <span class="badge">{{studentss.id}}</span>
+    <span class="name">{{studentss.name}}</span>
+  </button>
+</li>-->
+
+
+<!--<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="/student-list" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">student-list</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="/.student-details " data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">student-details</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+  </li>
+
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="student.html">student</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">peace</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="home.html" aria-current="page" target="_blank">home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</div>-->
+
+
+<app-student-details>[studentss]="selectedStudent</app-student-details>
+<br>
+<app-student-list>[studentss]="selectedStudent</app-student-list>
+
+<button [routerLink]="['/student/student-details']" class="btn btn-primary m-1">studentdetails</button>
+<br>
+<!--<button [routerLink]="['/student/student-list']" class="btn btn-primary m-1">studentlist</button>-->
+
+
+<button [routerLink]="['/studentlogin']" class="btn btn-primary m-1">login</button>
+<br>
+<button [routerLink]="['/studentsignup']" class="btn btn-primary m-1">signup</button>
+<!--<app-studentsignup>< studentss="selectedStudent"</app-studentsignup>-->
